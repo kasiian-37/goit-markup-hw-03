@@ -17,23 +17,27 @@
   </head>
 
   <body>
-    <header class="header-page">
-      <a class="main-logo" href="index.html">
-        <span class="blue"> Web</span> Studio</a
-      >
+    <header class="conteiner main-nav">
       <nav class="link-nav">
+        <a class="main-logo" href="index.html">
+          <span class="blue"> Web</span> Studio</a
+        >
+
         <ul class="link">
-          <li><a href="./index.html" class="link-current">Студия</a></li>
-          <li><a href="portfolio.html">Портфолию</a></li>
-          <li><a href="">Контакты</a></li>
+          <li class="nav-li">
+            <a href="./index.html" class="link-current">Студия</a>
+          </li>
+          <li class="nav-li"><a href="portfolio.html">Портфолию</a></li>
+          <li class="nav-li"><a href="">Контакты</a></li>
         </ul>
       </nav>
+
       <address class="adress-header">
         <ul class="link">
-          <li>
+          <li class="add-li">
             <a href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
+          <li class="add-li">
             <a href="tel:+380961111111"> +38 096 111 11 11</a>
           </li>
         </ul>
@@ -46,165 +50,195 @@
         <a href="" class="button">Заказать услугу</a>
       </section>
       <!-- Features -->
-      <section>
-        <ul class="features">
-          <li>
-            <img src="./img/antenna1.svg" alt="антенна" />
-            <h3 class="features-tile">Внимание к деталям</h3>
-            <p class="text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <img src="./img/clock1.svg" alt="часы" />
-            <h3 class="features-tile">Пунктуальность</h3>
-            <p class="text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <img src="./img/vector.svg" alt="вектор" />
-            <h3 class="features-tile">Планирование</h3>
-            <p class="text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <img src="./img/astronaut1.svg" alt="астронавт" />
-            <h3 class="features-tile">Современные технологии</h3>
-            <p class="text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
+      <section class="section-features">
+        <div class="conteiner">
+          <ul class="features">
+            <li class="features-li">
+              <div class="features-photo">
+                <img src="./img/antenna1.svg" alt="антенна" />
+              </div>
+              <h3 class="features-tile">Внимание к деталям</h3>
+              <p class="text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="features-li">
+              <div class="features-photo">
+                <img src="./img/clock1.svg" alt="часы" />
+              </div>
+              <h3 class="features-tile">Пунктуальность</h3>
+              <p class="text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="features-li">
+              <div class="features-photo">
+                <img src="./img/vector.svg" alt="вектор" />
+              </div>
+              <h3 class="features-tile">Планирование</h3>
+              <p class="text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="features-li">
+              <div class="features-photo">
+                <img src="./img/astronaut1.svg" alt="астронавт" />
+              </div>
+              <h3 class="features-tile">Современные технологии</h3>
+              <p class="text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Чем мы занимаемся -->
-      <section>
-        <h2 class="section-title">Чем мы занимаемся</h2>
+      <section class="section-work">
+        <div class="conteiner">
+          <h2 class="section-title">Чем мы занимаемся</h2>
 
-        <ul class="work">
-          <li>
-            <a href=""
-              ><img src="./img/img1.jpg" alt="ноутбук" width="370"
-            /></a>
-            <h3 class="work-title">Десктопные приложения</h3>
-          </li>
-          <li>
-            <a href=""><img src="./img/box.jpg" alt="телефон" width="370" /></a>
-            <h3 class="work-title">Мобильные приложения</h3>
-          </li>
-          <li>
-            <a href=""
-              ><img src="./img/desctop.jpg" alt="монитор" width="370"
-            /></a>
-            <h3 class="work-title">Мобильные приложения</h3>
-          </li>
-        </ul>
+          <ul class="work">
+            <li>
+              <a href=""
+                ><img src="./img/img1.jpg" alt="ноутбук" width="370"
+              /></a>
+              <h3 class="work-title">Десктопные приложения</h3>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./img/box.jpg" alt="телефон" width="370"
+              /></a>
+              <h3 class="work-title">Мобильные приложения</h3>
+            </li>
+            <li>
+              <a href=""
+                ><img src="./img/desctop.jpg" alt="монитор" width="370"
+              /></a>
+              <h3 class="work-title">Мобильные приложения</h3>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Наша команда-->
-      <section>
-        <h2 class="section-title">Наша команда</h2>
-        <ul>
-          <li>
-            <img src="./img/john.jpg" alt="Николай Кучеренко" width="270" />
-            <h3 class="team-link">Николай Кучеренко</h3>
-            <p class="team-text">Product Designer</p>
-            <ul class="social-link">
-              <li><a href="instagam">instagram</a></li>
-              <li><a href="twitter">twitter</a></li>
-              <li><a href="facebook">facebook</a></li>
-              <li><a href="linkedin">linkedin</a></li>
-            </ul>
-          </li>
+      <section class="our-team">
+        <div class="conteiner">
+          <h2 class="section-title">Наша команда</h2>
+          <ul class="team-list">
+            <li class="team-li">
+              <img src="./img/john.jpg" alt="Николай Кучеренко" width="270" />
+              <h3 class="team-link">Николай Кучеренко</h3>
+              <p class="team-text">Product Designer</p>
+              <ul class="social-link">
+                <li><a href="instagam">instagram</a></li>
+                <li><a href="twitter">twitter</a></li>
+                <li><a href="facebook">facebook</a></li>
+                <li><a href="linkedin">linkedin</a></li>
+              </ul>
+            </li>
 
-          <li>
-            <img src="./img/marta.jpg" alt="Ольга Иванова" width="270" />
-            <h3 class="team-link">Ольга Иванова</h3>
-            <p class="team-text">Frontend Developer</p>
-            <ul class="social-link">
-              <li><a href="instagam">instagram</a></li>
-              <li><a href="twitter">twitter</a></li>
-              <li><a href="facebook">facebook</a></li>
-              <li><a href="linkedin">linkedin</a></li>
-            </ul>
-          </li>
-          <li>
-            <img src="./img/robert.jpg" alt="Андрей Шевченко" width="270" />
-            <h3 class="team-link">Андрей Шевченко</h3>
-            <p class="team-text">Marketing</p>
-            <ul class="social-link">
-              <li><a href="instagam">instagram</a></li>
-              <li><a href="twitter">twitter</a></li>
-              <li><a href="facebook">facebook</a></li>
-              <li><a href="linkedin">linkedin</a></li>
-            </ul>
-          </li>
-          <li>
-            <img src="./img/martin.jpg" alt="Иван Николаев" width="270" />
-            <h3 class="team-link">Иван Николаев</h3>
-            <p class="team-text">UI Designer</p>
-            <ul class="social-link">
-              <li><a href="instagam">instagram</a></li>
-              <li><a href="twitter">twitter</a></li>
-              <li><a href="facebook">facebook</a></li>
-              <li><a href="linkedin">linkedin</a></li>
-            </ul>
-          </li>
-        </ul>
+            <li class="team-li">
+              <img src="./img/marta.jpg" alt="Ольга Иванова" width="270" />
+              <h3 class="team-link">Ольга Иванова</h3>
+              <p class="team-text">Frontend Developer</p>
+              <ul class="social-link">
+                <li><a href="instagam">instagram</a></li>
+                <li><a href="twitter">twitter</a></li>
+                <li><a href="facebook">facebook</a></li>
+                <li><a href="linkedin">linkedin</a></li>
+              </ul>
+            </li>
+            <li class="team-li">
+              <img src="./img/robert.jpg" alt="Андрей Шевченко" width="270" />
+              <h3 class="team-link">Андрей Шевченко</h3>
+              <p class="team-text">Marketing</p>
+              <ul class="social-link">
+                <li><a href="instagam">instagram</a></li>
+                <li><a href="twitter">twitter</a></li>
+                <li><a href="facebook">facebook</a></li>
+                <li><a href="linkedin">linkedin</a></li>
+              </ul>
+            </li>
+            <li class="team-li">
+              <img src="./img/martin.jpg" alt="Иван Николаев" width="270" />
+              <h3 class="team-link">Иван Николаев</h3>
+              <p class="team-text">UI Designer</p>
+              <ul class="social-link">
+                <li><a href="instagam">instagram</a></li>
+                <li><a href="twitter">twitter</a></li>
+                <li><a href="facebook">facebook</a></li>
+                <li><a href="linkedin">linkedin</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Постоянные клиенты-->
-      <section>
-        <h2 class="section-title">Постоянные клиенты</h2>
-        <ul>
-          <li>
-            <a href=""><img src="./img/logo1.svg" alt="клиент1" /></a>
-          </li>
-          <li>
-            <a href=""><img src="./img/logo2.svg" alt="клиент2" /></a>
-          </li>
-          <li>
-            <a href=""><img src="./img/logo3.svg" alt="клиент3" /></a>
-          </li>
-          <li>
-            <a href=""><img src="./img/logo4.svg" alt="клиент4" /></a>
-          </li>
-          <li>
-            <a href=""><img src="./img/logo5.svg" alt="клиент5" /></a>
-          </li>
-          <li>
-            <a href=""><img src="./img/logo6.svg" alt="клиент6" /></a>
-          </li>
-        </ul>
+      <section class="our-customer">
+        <div class="conteiner">
+          <h2 class="section-title">Постоянные клиенты</h2>
+          <ul class="customer-list">
+            <li class="customer-li">
+              <a href=""><img src="./img/logo1.svg" alt="клиент1" /></a>
+            </li>
+            <li class="customer-li">
+              <a href=""><img src="./img/logo2.svg" alt="клиент2" /></a>
+            </li>
+            <li class="customer-li">
+              <a href=""><img src="./img/logo3.svg" alt="клиент3" /></a>
+            </li>
+            <li class="customer-li">
+              <a href=""><img src="./img/logo4.svg" alt="клиент4" /></a>
+            </li>
+            <li class="customer-li">
+              <a href=""><img src="./img/logo5.svg" alt="клиент5" /></a>
+            </li>
+            <li class="customer-li">
+              <a href=""><img src="./img/logo6.svg" alt="клиент6" /></a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
-    <footer>
-      <a class="main-logo" href="index.html">
-        <span class="blue"> Web</span> Studio</a
-      >
-      <address class="adress-footer">
-        <span class="sity">г. Киев, пр-т Леси Украинки, 26</span>
+    <footer class="foot">
+      <div class="conteiner">
 
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111"> +38 096 111 11 11</a></li>
-        </ul>
-      </address>
-      <section>
-        <h3 class="porto">Подписки</h3>
-        <b>присоединяйтесь</b>
-        <ul class="social-link">
-          <li><a href="instagam">instagram</a></li>
-          <li><a href="twitter">twitter</a></li>
-          <li><a href="facebook">facebook</a></li>
-          <li><a href="linkedin">linkedin</a></li>
-        </ul>
-        <p class="end">2020 | Developed by GoIT Students</p>
-      </section>
+        <div class="foot-box">
+          <div class="cont-add">
+          <a class="main-logo-foot" href="index.html">
+          <span class="blue"> Web</span> Studio</a>
+        
+        <address class="adress-footer">
+          <span class="sity">г. Киев, пр-т Леси Украинки, 26</span>
+        
+          <ul class="foot-li">
+            <li>
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li><a href="tel:+380961111111"> +38 096 111 11 11</a></li>
+          </ul>
+        </address>
+        </div>
+
+        <section class="foot-link">
+          
+          <h3 class="porto">Подписки</h3>
+          <b>присоединяйтесь</b>
+          <ul class="social-link">
+            <li><a href="instagam">instagram</a></li>
+            <li><a href="twitter">twitter</a></li>
+            <li><a href="facebook">facebook</a></li>
+            <li><a href="linkedin">linkedin</a></li>
+          </ul>
+        </div>
+
+          <div><p class="end">2020 | Developed by GoIT Students</p></div>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
