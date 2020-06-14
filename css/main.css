@@ -329,7 +329,6 @@ b {
   display: flex;
   justify-content: center;
 }
-
 .filter-list .filter-li:not(:last-child) {
   margin-right: 8px;
 }
