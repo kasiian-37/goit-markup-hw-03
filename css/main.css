@@ -330,11 +330,8 @@ b {
   justify-content: center;
 }
 
-.filter-li .button-style {
+.filter-list .filter-li:not(:last-child) {
   margin-right: 8px;
-}
-.filter-li .button-style:not(:last-child) {
-  margin-right: 0px;
 }
 .button-style {
   display: inline-block;
